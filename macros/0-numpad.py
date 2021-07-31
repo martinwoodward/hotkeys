@@ -19,9 +19,9 @@ app = {                         # REQUIRED dict, must be named 'app'
         (0x101010, '2', [Keycode.KEYPAD_TWO]),
         (0x101010, '3  ', [Keycode.KEYPAD_THREE]),
         # 4th row ----------
-        (0x400000, '  <', [Keycode.BACKSPACE]),
+        (0x4C0099, '  <', [Keycode.BACKSPACE]),
         (0x101010, '0', [Keycode.KEYPAD_ZERO]),
-        (0x004000, '.  ', [Keycode.KEYPAD_PERIOD]),
+        (0x004C99, '.  ', [Keycode.KEYPAD_PERIOD]),
         # Encoder button ---
         (0x000000, '', [Keycode.KEYPAD_ENTER])
     ]
